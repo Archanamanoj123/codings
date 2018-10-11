@@ -1,0 +1,96 @@
+i{
+color:white;
+}
+.bg{
+background-color:#6666ff;
+}
+body {
+  margin: 0;
+  font-family:Georgia,serif;
+  font-size: 20px;
+  color:white;
+  font-style:italic;
+}
+.txtsize{
+  height:50px;
+}
+.txt{
+  padding-top: 10px;
+  font-family:Georgia,serif;
+  font-size: 20px;
+  color:white;
+  font-style: italic;
+}
+.top-container {
+background-color: black;
+padding: 30px;
+text-align: center;
+}
+.rtpadd{
+  padding-right:10px;
+}
+.logopadd{
+  padding-left: 10px;
+}
+
+.header {
+color:black;
+}
+
+.content {
+padding: 16px;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 102px;
+}
+h5:hover{
+ font-weight: bold;
+ color:#f1f1f1;
+ }
+i:hover{
+  font-weight: bold;
+  color:#f1f1f1;
+}
+.emoji{
+  background:transparent;
+  padding-right:30px;
+}
+.microphonesz{
+  width:65px;
+  padding-left: 22px;
+}
+.icon
+{
+  color:black;
+  width:20px;
+}
+.tppad{
+  padding-top: 500px;
+}
+.verticalLine {
+  border-left:solid black;
+  heigth:100%;
+}
+.widthsnd{
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.background{
+  background-image:url("11.jpg");
+}
+.image{
+  border-radius:90px;
+  height:40px;
+
+}
+.searchpadd{
+  width:100%;
+  padding-left: 20px;
+}
