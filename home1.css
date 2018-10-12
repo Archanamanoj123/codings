@@ -11,7 +11,7 @@ body {
   color:white;
   font-style:italic;
 }
-.txtsize{
+.textsize{
   height:50px;
 }
 .txt{
@@ -26,7 +26,7 @@ background-color: black;
 padding: 30px;
 text-align: center;
 }
-.rtpadd{
+.right-padd{
   padding-right:10px;
 }
 .logopadd{
@@ -70,10 +70,10 @@ i:hover{
   color:black;
   width:20px;
 }
-.tppad{
+.top-pad{
   padding-top: 500px;
 }
-.verticalLine {
+.verticalline {
   border-left:solid black;
   heigth:100%;
 }
