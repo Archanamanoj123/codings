@@ -1,0 +1,22 @@
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 450px;
+  background-color:#a1f9f1;
+  text-align:center;
+  width:300px;
+  height:600px;
+  padding-right: 15px;
+    }
+form,div{
+  font-style: italic;
+  background-image:url("image1.jpeg");
+        }
+input{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right:30px;
+    margin-bottom: 10px;
+     }

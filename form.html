@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+       <link rel="stylesheet" href="form.css">
+    <script>
+      function myfunction(x)
+        {
+        x.style.color= "red";
+        }
+      function valid()
+      {
+     if(document.form.firstname.value=="")
+     {
+       alert("Please enter your first name");
+       return false;
+     }
+     if(document.form.lastname.value=="")
+     {
+       alert("please enter your lastname");
+       return false;
+     }
+     if(document.form.gender.value=="")
+     {
+       alert("select the gender");
+       return false;
+     }
+     if(document.form.emailid.value=="")
+     {
+      alert("enter valid emailid");
+      return false;
+    }
+    if(document.form.age.value=="")
+      {
+      alert("enter the age");
+      return false;
+      }
+      if(document.form.nationality.value=="")
+      {
+      alert("enter ur nationality");
+      return false;
+      }
+      if(document.form.dateofbirth.value=="")
+      {
+        alert("enter ur date of birth");
+        return false;
+      }
+      }
+    function validateEmail()
+      {
+         var emailid = document.form.email.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+
+         if (atpos < 1 || ( dotpos - atpos < 2 ))
+         {
+            alert("Please enter correct email ID")
+            document.form.emailid.valid() ;
+            return false;
+         }
+         return( true );
+      }
+    </script>
+    <body>
+      <div>
+      <h2>Registration form</h2>
+       <form class="form" action="resume.html" name="form" onsubmit="return(valid());">
+         First name:<input type="text" placeholder="max length 20" max="20" onfocus="myfunction(this)" name="firstname">
+         Last name:<input type="text" placeholder="max length 20" max="20" onfocus="myfunction(this)" name="lastname">
+         Gender<br><input type="radio" name="gender" value="Male">Male
+                   <input type="radio" name="gender" value="female" >female<br>
+         Email id:<input type="text" name="emailid"  placeholder="enter your email id" pattern="[a-z A-Z 0-9 @.]{24,}" title="type valid id">
+         AGE <input type="number" name="Age" placeholder="enter your age" pattern="[0-9]{1,3}" title="type valid age">
+         Nationality:<br>
+           <select name="nationality" placeholder="selct ur nationality">
+              <option value="India">India </option>
+              <option value="Australia"> Australia </option>
+              <option value="us"> US </option>
+              <option value="uk"> UK </option>
+              <option value="japan">japan</option>
+           </select><br><br>
+        Date of Birth:<br><input type="date" name="date of birth" placeholder="enter ur dob"><br><br>
+        <input type="submit" name="cancel" value="Cancel"> <input type="submit" name="submit" value="submit" >
+      </form>
+      </div>
+    </body>
+</html>
